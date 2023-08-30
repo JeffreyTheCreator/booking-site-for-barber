@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barber Jeffries | Booking</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="icon" type="image/x-icon" href="/images/barber.png">
+</head>
+<body>
+
+<!--- >
+ - - - - - - - Navbar - - - - - - -
+<------->
+
+<div id="navbar-header">
+  <div id="navbar-header-items">
+      <div id="header-logo-container">
+          <img src="images/barber-logo.png">
+          <p>Barber Jeffries</p>
+      </div>
+  </div>
+</div>
+
+<!--- >
+ - - - - - - - Booking section - - - - - - -
+<------->
+
+<section id="booking-section">
+
+    <div id="booking-items">
+        <span>Make your appointments here!</span>
+        <form id="booking-form">
+            <div class="booking_personal_infos">
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname" class="inputFirstName" placeholder="Your name">
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname" class="inputLastName" placeholder="Your last name">
+            </div>
+        <div class="booking_info">
+            <label for="appointment_start">Start date:</label>
+            <input type="date" id="appointment_start" name="appointment_Start" class="inputDate" placeholder="Date">
+            <label for="barber_of_choice">Barber:</label>
+            <input type="text" id="barber_of_choice" name="barber_of_Choice" class="inputBarberChoice" placeholder="Your barber of choice">
+        </div>
+            <div id="booking_submit">
+                <input type="submit" />
+            </div>
+
+        </form>
+    </div>
+
+</section>
+
+<!--- >
+ - - - - - - - Footer - - - - - - -
+<------->
+
+<section id="footer" style="display: flex; justify-content: center; align-items: center; flex-direction: column">
+
+    <div style="display: flex; flex-direction: row; align-items: center; gap: .5rem">
+        <img style="height: auto; width: 40px" src="images/barber-logo.png">
+        <p style="color: #FFFFFF; font-weight: bold; font-size: 1.2rem; margin: 0">Barber Jeffries</p>
+    </div>
+    
+    <hr id="footer-line">
+
+</section>
+
+<script src="./js/index.js"></script>
+</body>
+</html>
